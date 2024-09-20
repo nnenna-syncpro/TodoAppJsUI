@@ -188,3 +188,26 @@ body {
   height: 40px;
   width: 40px;
 }
+.head-wrapper .list-options img {
+  height: 40px;
+  width: 40px;
+}
+
+#category-img {
+  height: 4rem;
+  width: 4rem;
+}
+.list-details {
+  padding: 0 30px;
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-details .details p {
+  opacity: 0.6;
+}
+.list-details .details h1 {
+  margin: 0.5rem 0;
+}
