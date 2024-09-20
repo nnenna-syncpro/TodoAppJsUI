@@ -18,6 +18,7 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
+  padding: 30px 0;
 }
 
 @media (min-width: 768px) {
@@ -38,4 +39,15 @@ body {
   transform: translateX(-50%);
   background-color: #f9ea85;
   border-radius: 0 0 50% 50%;
+}
+
+.head-wrapper {
+  padding: 0 30px;
+}
+.menu-btn {
+  width: 2rem;
+  cursor: pointer;
+  color: #2e2e2e;
+  position: absolute;
+  z-index: 2;
 }
