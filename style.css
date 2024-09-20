@@ -43,7 +43,7 @@ body {
 
 .head-wrapper {
   padding: 0 30px;
-  position: absolute;
+  position: relative;
   z-index: 2;
 }
 .menu-btn {
