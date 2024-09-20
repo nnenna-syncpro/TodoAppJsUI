@@ -43,11 +43,41 @@ body {
 
 .head-wrapper {
   padding: 0 30px;
+  position: absolute;
+  z-index: 2;
 }
 .menu-btn {
   width: 2rem;
   cursor: pointer;
   color: #2e2e2e;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome p {
+  font-weight: 500;
+}
+
+.welcome .avatar {
+  position: relative;
+}
+.welcome .avatar img {
+  height: 50px;
+  width: 50px;
+}
+
+.welcome .avatar .avatar-backdrop {
   position: absolute;
-  z-index: 2;
+  top: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3.8rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #fdfbe5;
+  z-index: -1;
 }
