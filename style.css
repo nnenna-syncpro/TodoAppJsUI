@@ -279,3 +279,26 @@ body {
   text-decoration: line-through;
   opacity: 0.6;
 }
+
+.task-wrapper .delete-task {
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #2e2e2e;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.031);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.task-wrapper:hover .delete-task {
+  visibility: visible;
+  opacity: 1;
+}
+
+.task-wrapper .delete-task:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.1);
+}
