@@ -105,6 +105,40 @@
       <div class="add-task-btn">
         <img src="/assets/images/add-btn.svg" alt="" />
       </div>
+      <!-- Add Task Form-->
+      <div class="add-task">
+        <h1 class="header">Add Task</h1>
+        <div class="input-group">
+          <label for="task-description">Task</label>
+          <input type="text" id="task-description" required />
+        </div>
+        <div class="input-group">
+          <label for="select-task-category">Category</label>
+          <select name="" id="select-task-category">
+            <option value="care">Self-Care</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="select-task-category">Status</label>
+          <select name="" id="select-task-category">
+            <option value="open">Open</option>
+            <option value="progress">In-Progress</option>
+            <option value="closed">Closed</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="select-task-category">Prioirty</label>
+          <select name="" id="select-task-category">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        <div class="btn-controls">
+          <button class="cancel-btn">Cancel</button>
+          <button class="add-btn">Add</button>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
