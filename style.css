@@ -302,3 +302,28 @@ body {
   color: red;
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+/* Add Task */
+.add-task-btn img {
+  width: 2rem;
+  color: #2e2e2e;
+}
+
+.add-task-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #f9ea85;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-task-btn:hover {
+  transform: scale(1.2);
+}
