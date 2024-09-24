@@ -59,12 +59,11 @@ body {
   background-color: #f9ea85;
   border-radius: 0 0 50% 50%;
   transition: all 0.3s;
+  z-index: -1;
 }
 
 .head-wrapper {
   padding: 0 30px;
-  position: relative;
-  z-index: 2;
 }
 .menu-btn {
   width: 2rem;
@@ -103,8 +102,6 @@ body {
 }
 
 .categories-wrapper {
-  position: relative;
-  z-index: 2;
   margin-top: 1rem;
   height: calc(100%-8rem);
   padding: 0 30px;
@@ -322,21 +319,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s;
+}
+
+.add-task-btn.active {
+  z-index: 1;
+  bottom: 31rem;
+  img {
+    transform: rotate(45deg);
+  }
 }
 
 .add-task-btn:hover {
   transform: scale(1.2);
 }
 
-.add-task {
+.add-task-form {
   position: absolute;
-  bottom: 0;
+  bottom: -100%;
   left: 0;
   width: 100%;
   padding: 20px 30px;
+  transition: all 0.3s;
 }
 
-.add-task .header {
+.add-task-form.active {
+  bottom: 0;
+}
+
+.add-task-form .header {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -384,6 +395,8 @@ body {
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
 }
 
 .btn-controls button.add-btn {
@@ -400,7 +413,6 @@ body {
   transform: translateX(-50%);
   background-color: #fff;
   border-radius: 50% 50% 0 0;
-  border-top: 1px solid red;
 }
 
 .black-backdrop {
@@ -411,4 +423,12 @@ body {
   height: 100%;
   backdrop-filter: blur(5px);
   background-color: #00000023;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3ss;
+}
+
+.black-backdrop.active {
+  opacity: 1;
+  visibility: visible;
 }
