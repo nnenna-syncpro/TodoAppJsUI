@@ -1,0 +1,52 @@
+[
+  {
+    "categoryId": "care",
+    "title": "Self-Care",
+    "img": "../assets/images/hand-holding-heart.svg"
+  },
+  {
+    "categoryId": "exec",
+    "title": "Admin",
+    "img": "../assets/images/calendar-check.svg"
+  },
+  {
+    "categoryId": "fit",
+    "title": "Fitness",
+    "img": "../assets/images/dumbbell.svg"
+  },
+  {
+    "categoryId": "fun",
+    "title": "Hobby",
+    "img": "../assets/images/gamepad.svg"
+  },
+  {
+    "categoryId": "heal",
+    "title": "Health",
+    "img": "../assets/images/heart-pulse.svg"
+  },
+  {
+    "categoryId": "home",
+    "title": "Home",
+    "img": "../assets/images/house-circle-check.svg"
+  },
+  {
+    "categoryId": "shop",
+    "title": "Shopping",
+    "img": "../assets/images/shopping-cart.svg"
+  },
+  {
+    "categoryId": "soc",
+    "title": "Social",
+    "img": "../assets/images/address-book.svg"
+  },
+  {
+    "categoryId": "study",
+    "title": "Study",
+    "img": "../assets/images/book-open-reader.svg"
+  },
+  {
+    "categoryId": "work",
+    "title": "Work",
+    "img": "../assets/images/briefcase.svg"
+  }
+]
